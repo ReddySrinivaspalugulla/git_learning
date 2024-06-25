@@ -34,3 +34,4 @@
 27)change between branches --> (git checkout "branchname").
 28)merge all branches by using --> (git merge "branchname to merge")
 29)then do --> (git push origin master ) to push all changes.
+30)
