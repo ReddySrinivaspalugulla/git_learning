@@ -1,0 +1,36 @@
+
+1) after installation of git please create one empty folder (yourname_learnbay)in any drive.
+2)go insidd the empty folder --> right click -->gitbash --> please click git bash.
+3)you will get a black open window.
+
+4)check global settings --> (git config --global user.name "<your name>") ,command.
+5)check email  --> (git config --global user.email "<your email>") ,command.
+6)check with --> (git config --list) 
+
+(user.name=reddysrinivaspalugulla)
+(user.email=reddy.srinivas0@gmail.com)
+
+
+7)initialise git repository by writing --> (git init) --> do it only once.
+8)check the status by entering --> (git status) --> do it to check whether branch is created or not.
+9)it will be an untracked file not pushed to staging area.
+10) now add the command --> git add command to push directory or file or use command -A for adding all files in directory --> (git add -A).
+11) now we have moved the file to staging area.
+12) to push multiple files seperate them by space.
+13)now push the file local repository by command --> (git commit -m) where m stands for message . add your message in double quotes after (-m "-----").
+14)use your github account or create new with same email id of global settings.
+15)you need to use the --> (git status) whenever required.
+16)use --> (git remote add origin "https://github.com/ReddySrinivaspalugulla/srinivas_learnbay") only once to make a connection with git folder.
+17)if you want to remove the origin use the command --> (git remote remove origin).
+18)now use command --> (git push origin master) for pushing the remote repository online.
+19)use --> (git pull origin master) command to pull any file from git remote repository to local repository.
+20)incase if git is unable to push by getting stuck at central directory by error of "failed to push some refs to"  use --> (git push -u -f origin master)
+21)to remove a file use -->(git rm <filename>).
+22)use --> (git status) to check .
+23)but then after removing you need to commit the changes hence --> (git commit -m "insert comment").
+24)then finally use -->(git push origin master) to push the changes.
+25)if you want to create a new branch --> (git branch copybranch).
+26)if you want to switch to new branch --> (git checkout "branchname").
+27)change between branches --> (git checkout "branchname").
+28)merge all branches by using --> (git merge "branchname to merge")
+29)then do --> (git push origin master ) to push all changes.
